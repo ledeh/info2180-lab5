@@ -1,0 +1,87 @@
+/* Add your own styles */
+body, html{
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Bg{
+    background-image: url("world_surface.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#head-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding-right: 20px;
+}
+
+header{
+    display: flex;
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: aliceblue;
+   }
+
+#country{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lookup hover{
+    background-color: rgb(223, 174, 13);
+}
+
+#lookup{
+    background-color: rgb(79, 166, 236);
+    box-sizing: border-box;
+    width: 10%;
+    border-radius: 5px;
+    border-color:aliceblue;
+    font-weight: bolder;
+    padding: 6px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+#Lcities{
+    background-color: rgb(22, 175, 124);
+    box-sizing: border-box;
+    width: 10%;
+    border-radius: 5px;
+    border-color:aliceblue;
+    font-weight: bolder;
+    padding: 6px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+
+input[type= search]{
+    margin: 8px 3px;
+    padding: 5px;
+    width: 40%;
+    box-sizing: border-box;
+    border: 3px solid rgba(204, 204, 204, 0.74);
+}
+
+label{
+    color: aliceblue;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#result{
+    color: aliceblue;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
